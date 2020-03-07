@@ -1,0 +1,156 @@
+o {
+    position: relative;
+}
+
+.info_ellipse {
+    position: absolute;
+    bottom  : 0;
+    right   : 0;
+    width   : 814px;
+    height  : 630px;
+    overflow: hidden;
+}
+
+.info_block {
+    width    : 100%;
+    max-width: 1250px;
+    padding  : 0 40px;
+    margin   : 0 auto;
+}
+
+.info_block_logo {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    position       : relative;
+    flex-direction : row-reverse;
+    z-index        : 2;
+}
+
+.info_block_logo_foto {
+    width   : 435px;
+    position: relative;
+    right   : -81px;
+}
+
+.info_block_block {
+    flex-grow: 1;
+}
+
+.info_block_hgroup {
+    margin: -60px 0 46px;
+}
+
+.info_block_name {
+    color        : #1f1f24;
+    margin-bottom: 22px;
+    font-weight  : 800;
+    font-size    : 80px;
+}
+
+.info_block_title {
+    color      : #8993ad;
+    font-size  : 25px;
+    font-weight: 400;
+}
+
+.info_block_btn {
+    width           : 270px;
+    height          : 60px;
+    line-height     : 58px;
+    background-color: #ff4e2e;
+    border          : 1px solid #ff4e2e;
+    color           : #fff;
+    text-align      : center;
+    font-size       : 18px;
+    display         : block;
+    transition      : 0.25s ease;
+    cursor          : pointer;
+}
+
+.info_block_btn:hover {
+    background-color: #fff;
+    color           : #ff4e2e;
+}
+
+@media only screen and(max-width : 1249px) {
+    .info_block_name {
+        font-size    : 54px;
+        margin-bottom: 25px;
+    }
+
+    .info_ellipse {
+        right : -170px;
+        width : 678px;
+        height: 524px;
+    }
+}
+
+@media only screen and(max-width : 770px) {
+    .info_block_logo_foto img {
+        width : 100%;
+        height: auto;
+    }
+
+    .info_ellipse svg {
+        width : 400px;
+        height: auto;
+    }
+
+    .info_ellipse {
+        width : 434px;
+        height: auto;
+        left  : 80px;
+        top   : 76px;
+    }
+
+    .info_block_btn {
+        width      : 100%;
+        height     : 55px;
+        line-height: 53px;
+        font-size  : 16px;
+    }
+
+
+    .info_block_block {
+        margin-bottom: 20px;
+        padding      : 8px 20px 0;
+        text-align   : center;
+    }
+
+    .info_block_logo {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .info_block_block {
+        padding   : 18px 20px 0;
+        text-align: center;
+    }
+
+    .info_block_logo_foto {
+        width      : 224px;
+        margin     : 0 auto;
+        right      : -29px;
+        padding-top: 50px;
+    }
+
+    .info_block_hgroup {
+        margin: 0 0 25px;
+    }
+
+    .info_block_name {
+        margin-bottom: 12px;
+        font-size    : 30px;
+    }
+
+    .info_block_title {
+        font-size  : 16px;
+        line-height: 24px;
+    }
+
+    .info_block {
+        margin: 0 auto;
+    }
+}

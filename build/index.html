@@ -11,7 +11,121 @@
 	<title>Skillbox</title>
 </head>
 <body>
+<div class="main">
+	<!--todo Header -->
+	<header class="header">
+		<div class="container">
+			<div class="row  flex-items-xs-middle">
+				<div class="col-lg-8 col-md-4 col-5">
 
+					<nav class="header_nav menu navbar navbar-expand-lg navbar-light ">
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="header_menu">
+								<li class=" header_menu_element">
+									<a class=" header_menu_link" href="#works">Услуги</a>
+								</li>
+								<li class="header_menu_element">
+									<a class=" header_menu_link" href="#baner">Портфолио</a>
+								</li>
+								<li class="header_menu_element">
+									<a class=" header_menu_link" href="#prise">Стоимость</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="col-lg-4 col-md-8 col-7">
+					<div>
+						<span class="header_call">+79117766733</span>
+						<button type="button" class="btn btn-outline-danger" data-target="#basicModal" data-toggle="modal"
+							type="button">Заказать звонок</button>
+					</div>
+				</div>
+
+				<div aria-hidden="true" aria-labelledby="basicModal" class="modal fade" id="basicModal" role="dialog"
+					tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" id="myModalLabel"></h4>
+								Мы Вам перезвоним
+								<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+									<span aria-hidden="true">×</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<h3>Сообщите номер</h3>
+								<input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1"
+									placeholder="Номер" type="email" />
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-default" data-dismiss="modal" type="button">
+									Отменить
+								</button>
+								<button class="btn btn-primary" type="submit">
+									Отправить
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- todo END header -->
+	<section class="info">
+        <div class="flying-el">
+			<div class="flying-el__brackets">{ }</div>
+			<div class="flying-el__hashtag">#</div>
+			<div class="flying-el__slash">&lt;/&gt;</div>
+			<div class="flying-el__div flying-el__div_size_s">&lt;div&gt;</div>
+			<div class="flying-el__div flying-el__div_size_m">&lt;div&gt;</div>
+		</div>
+
+
+		<div class="info_ellipse">
+			<svg xmlns="http://www.w3.org/2000/svg" width="814" height="630" viewbox="0 0 814 630">
+
+				<defs>
+					<linearGradient id="gradient" x1="371.97" x2="548.51" y1="763.68" y2=".74"
+						gradientunits="userSpaceOnUse">
+						<stop offset="0" stop-color="#ff8f5a" />
+						<stop offset=".99" stop-color="#ff2f96" />
+						<stop offset="1" stop-color="#ff3393" />
+					</linearGradient>
+				</defs>
+
+				<path fill="url(#gradient)"
+					d="M395.52 40.407C502.261-10.05 602.994-10.204 687.212 27.67c84.435 37.567 152.356 113.165 198.491 207.114 44.27 94.884 44.223 196.799 8.068 279.242-36.656 83.673-97.666 146.755-180.805 191.777-44.03 22.669-90.312 38.198-149.148 47.731-58.06 9.394-128.676 12.79-203.493 7.944-148.474-9.32-314.876-53.081-349.967-151.79-19.887-49.012-7.404-105.197 17.32-161.739 25.13-56.624 62.503-113.604 101.74-166.115 39.645-52.593 81.155-100.717 123.891-141.53C296.45 99.41 340.817 65.828 395.52 40.408z" />
+			</svg>
+		</div>
+		<div class="info_block">
+			<figure class="info_block_logo">
+				<div class="info_block_logo_foto">
+					<img src="/img/foto.png" alt="Иван Иванович | Frontend-разработчик и веб-верстальщик">
+				</div>
+
+				<figcaption class="info_block_block">
+					<hgroup class="info_block_hgroup">
+						<h1 class="info_block_name">Василий Васильевич</h1>
+
+						<h2 class="info_block_title">Frontend-разработчик и веб-верстальщик</h2>
+					</hgroup>
+
+					<a class="info_block_btn " href="#about">
+						Узнать больше
+					</a>
+				</figcaption>
+			</figure>
+		</div>
+    </section>
+
+</div>
 
 
 <!--Bootstrap-->
